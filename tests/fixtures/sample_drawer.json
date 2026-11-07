@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "items": {
+    "hdmi-to-mini-hdmi-adapter": {
+      "added": "2026-09-02",
+      "container": "tin, second drawer down",
+      "description": "Grey, logo worn off, mini end on a short pigtail",
+      "id": "hdmi-to-mini-hdmi-adapter",
+      "kind": "adapter",
+      "moves": [
+        {
+          "date": "2026-10-01",
+          "from_container": "loose in desk drawer",
+          "from_room": "office",
+          "note": "put everything in the tin while tidying",
+          "to_container": "tin, second drawer down",
+          "to_room": "office"
+        }
+      ],
+      "name": "HDMI to mini HDMI adapter",
+      "photo_hint": "coiled grey cable left of the tape measure in the tin",
+      "room": "office",
+      "status": "live",
+      "tags": ["hdmi", "video", "adapter"],
+      "updated": "2026-10-01"
+    },
+    "spare-house-key": {
+      "added": "2026-08-15",
+      "container": "key hooks by the door, blue fob",
+      "description": "Third key cut, blue plastic fob",
+      "id": "spare-house-key",
+      "kind": "key",
+      "moves": [],
+      "name": "Spare house key",
+      "photo_hint": "hook rail: second from left",
+      "room": "hall",
+      "status": "live",
+      "tags": ["key", "house", "spare"],
+      "updated": "2026-08-15"
+    },
+    "usb-c-cable-short": {
+      "added": "2026-08-20",
+      "container": "cable pouch, top zip",
+      "description": "30cm, grey braided",
+      "id": "usb-c-cable-short",
+      "kind": "cable",
+      "moves": [],
+      "name": "USB-C cable",
+      "photo_hint": "pouch pocket, rolled with the rubber band",
+      "room": "office",
+      "status": "live",
+      "tags": ["usb-c", "charging", "cable", "short"],
+      "updated": "2026-08-20"
+    },
+    "aa-battery-full-box": {
+      "added": "2026-09-10",
+      "container": "battery crate, kitchen cupboard top shelf",
+      "description": "Box of 8, unopened",
+      "id": "aa-battery-full-box",
+      "kind": "battery",
+      "moves": [],
+      "name": "AA batteries",
+      "photo_hint": "green-and-black crate, front row",
+      "room": "kitchen",
+      "status": "live",
+      "tags": ["aa", "batteries", "spare"],
+      "updated": "2026-09-10"
+    },
+    "craft-thread-red": {
+      "added": "2026-07-30",
+      "container": "basket third from bottom",
+      "description": "Skein of red embroidery thread, 8m",
+      "id": "craft-thread-red",
+      "kind": "craft",
+      "moves": [],
+      "name": "Craft thread red",
+      "photo_hint": "basket by the window, top-right of the pile",
+      "room": "craft room",
+      "status": "live",
+      "tags": ["craft", "thread", "red", "sewing"],
+      "updated": "2026-07-30"
+    },
+    "component-video-cable": {
+      "added": "2026-08-01",
+      "container": "TV cabinet, cable pouch",
+      "description": "Red-green-blue RCA ends, 1.5m",
+      "id": "component-video-cable",
+      "kind": "media",
+      "moves": [
+        {
+          "date": "2026-09-18",
+          "from_container": "cable pouch, top zip",
+          "from_room": "office",
+          "note": "kept with the TV they serve",
+          "to_container": "TV cabinet, cable pouch",
+          "to_room": "lounge"
+        }
+      ],
+      "name": "Component video cable",
+      "photo_hint": "pouch behind the left speaker, coiled red green blue",
+      "room": "lounge",
+      "status": "live",
+      "tags": ["video", "rca", "cable"],
+      "updated": "2026-09-18"
+    },
+    "micro-usb-cable-red": {
+      "added": "2026-08-02",
+      "container": "",
+      "description": "1m, red, fraying near the plug end",
+      "id": "micro-usb-cable-red",
+      "kind": "cable",
+      "moves": [
+        {
+          "date": "2026-09-25",
+          "from_container": "cable pouch, top zip",
+          "from_room": "office",
+          "note": "e-waste drive",
+          "to_container": "",
+          "to_room": "gone"
+        }
+      ],
+      "name": "Micro USB cable red",
+      "photo_hint": "",
+      "room": "gone",
+      "status": "gone",
+      "tags": ["usb", "charging"],
+      "updated": "2026-09-25"
+    }
+  }
+}

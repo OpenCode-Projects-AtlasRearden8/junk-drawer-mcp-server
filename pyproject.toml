@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "junk-drawer-mcp-server"
+version = "0.1.0"
+description = "Local MCP server cataloguing the small things that vanish: cables, adapters, batteries, craft bits, spare keys. Add items with location notes, tags and photo hints; search like a person; list by room; mark items when they move."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Asdale Dynamics, LLC" }]
+keywords = ["mcp", "junk-drawer", "home-organization", "local-first", "adhd-friendly", "cables", "adapters"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+dependencies = ["mcp>=1.2,<3"]
+
+[project.scripts]
+junk-drawer-server = "junk_drawer.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
